@@ -1,4 +1,4 @@
-package hello.upload;
+package hello.upload.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -41,4 +41,5 @@ public class SpringUploadController {
 
         return "upload-form";
     }
+
 }
